@@ -209,6 +209,27 @@
             "red": "#DE3D3B",
             "white": "#F0F0F0",
             "yellow": "#E0AF02"
+        },
+	{
+            "background": "#772953",
+            "black": "#000000",
+            "blue": "#532750",
+            "brightBlack": "#AEA79F",
+            "brightBlue": "#288ED7",
+            "brightCyan": "#61D6D6",
+            "brightGreen": "#16C60C",
+            "brightPurple": "#77216F",
+            "brightRed": "#F08763",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#F9F1A5",
+            "cyan": "#3A96DD",
+            "foreground": "#FFFFFF",
+            "green": "#00FF00",
+            "name": "Ubuntu",
+            "purple": "#881798",
+            "red": "#E95420",
+            "white": "#FFFFFF",
+            "yellow": "#ED764D"
         }
     ]
 }
