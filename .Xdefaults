@@ -1,0 +1,12 @@
+URxvt*font:              xft:MesloLGS NF:Regular:size=14
+URxvt*boldFont:          xft:MesloLGS NF:Bold:size=14
+URxvt*italicFont:        xft:MesloLGS NF:Regular:size=14
+URxvt*boldItalicFont:    xft:MesloLGS NF:Regular:size=14
+
+URxvt*transparent: true
+URxvt.scrollBar: false
+URxvt*blurRadius: 20
+URxvt*shading: 20
+
+URxvt.keysym.C-S-0x43: eval:selection_to_clipboard
+URxvt.keysym.C-S-0x56: eval:paste_clipboard
