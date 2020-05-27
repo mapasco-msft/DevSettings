@@ -1,0 +1,21 @@
+{
+            "background": "#d8dee9",
+            "black": "#2e3440",
+            "blue": "#5e81ac",
+            "brightBlack": "#4c566a",
+            "brightBlue": "#81a1c1",
+            "brightCyan": "#88c0d0",
+            "brightGreen": "#a3be8c",
+            "brightPurple": "#b48ead",
+            "brightRed": "#bf616a",
+            "brightWhite": "#eceff4",
+            "brightYellow": "#ebcb8b",
+            "cyan": "#88c0d0",
+            "foreground": "#2E3440",
+            "green": "#a3be8c",
+            "name": "Nord Light",
+            "purple": "#b48ead",
+            "red": "#bf616a",
+            "white": "#ffffff",
+            "yellow": "#ebcb8b"
+}
