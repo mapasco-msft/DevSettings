@@ -14,6 +14,7 @@ Plug 'preservim/nerdtree'
 Plug 'itchyny/lightline.vim'
 Plug 'vifm/vifm.vim'
 Plug 'junegunn/goyo.vim'
+Plug 'davidhalter/jedi-vim'
 
 call plug#end()
 
