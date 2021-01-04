@@ -18,10 +18,32 @@ Plug 'davidhalter/jedi-vim'
 
 call plug#end()
 
-set mouse=nicr
-set tabstop=4
+:set mouse=nicr
+:set tabstop=4
+:set shiftwidth=4
+:set expandtab
+
+:set number relativenumber
+:set nu rnu
 
 " Width
-cnoreabbrev zen Goyo 120
+let g:goyo_width=120
+cnoreabbrev zen Goyo
+map <F3> :zen<CR>
 
 inoremap <C-Space> <C-x><C-o>
+map <C-L> :noh<CR>
+
+nnoremap ; :
+
+" OmniSharp
+nnoremap <C-o><C-d><C-p> :OmniSharpPreviewDefinition<CR>
+let g:OmniSharp_want_snippet=1
+let g:OmniSharp_server_stdio = 1
+let g:ale_linters = { 'cs': ['OmniSharp'] }
+let g:ale_set_loclist = 0
+let g:ale_set_quickfix = 1
+let g:ale_list_window_size = 5
+
+set lcs+=space:·
+set list
