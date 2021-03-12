@@ -1,7 +1,9 @@
   
-:set number
-:set ruler
-:set hlsearch
+set ignorecase
+set number
+set ruler
+set hlsearch
+set colorcolumn=80
 
 call plug#begin('~/.vim/plugged')
 
@@ -15,16 +17,17 @@ Plug 'itchyny/lightline.vim'
 Plug 'vifm/vifm.vim'
 Plug 'junegunn/goyo.vim'
 Plug 'davidhalter/jedi-vim'
+Plug 'ThePrimeagen/vim-be-good'
 
 call plug#end()
 
-:set mouse=nicr
-:set tabstop=4
-:set shiftwidth=4
-:set expandtab
+set mouse=nicr
+set tabstop=4
+set shiftwidth=4
+set expandtab
 
-:set number relativenumber
-:set nu rnu
+set number relativenumber
+set nu rnu
 
 " Width
 let g:goyo_width=120
@@ -33,6 +36,8 @@ map <F3> :zen<CR>
 
 inoremap <C-Space> <C-x><C-o>
 map <C-L> :noh<CR>
+
+map <C-F> :Files<CR>
 
 nnoremap ; :
 
