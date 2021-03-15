@@ -1,3 +1,10 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+    source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -69,11 +76,12 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-	git
-	zsh-completions
-	zsh-autosuggestions
-	zsh-syntax-highlighting
-	)
+    git
+    zsh-completions
+    zsh-autosuggestions
+    zsh-syntax-highlighting
+)
+
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status command_execution_time vi_mode)
 autoload -U compinit && compinit
 source $ZSH/oh-my-zsh.sh
@@ -81,8 +89,13 @@ source $ZSH/oh-my-zsh.sh
 export GOPATH=/home/ubuntu/go
 export GOROOT=/usr/local/go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+export TERM=xterm-256color
+export FZF_DEFAULT_COMMAND='find . -type f | awk "!/.git/ && !/bin/ && !/obj/ && !/node_modules/ && !/.vscode/"'
 
 alias k="kubectl"
+alias vim="nvim"
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=2"
+#alias vi="vim"
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
