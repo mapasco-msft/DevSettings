@@ -5,3 +5,7 @@ alias vim="nvim"
 alias k="kubectl"
 
 set -x PATH $PATH:/usr/local/go/bin
+
+if test (uname) = "Darwin"
+	fish_add_path /opt/homebrew
+end
