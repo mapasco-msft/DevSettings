@@ -1,0 +1,41 @@
+live_config_reload: true
+
+font:
+
+  size: 14.0
+
+
+colors:
+  # Default colors
+  #    primary:
+  #    background: '0x181715'
+  #    foreground: '0xe8e1e1'
+  #
+  #  # Normal colors
+  #  normal:
+  #    black:   '0x332d29'
+  #    red:     '0x8c644c'
+  #    green:   '0x746c48'
+  #    yellow:  '0x908a66'
+  #    blue:    '0x646a6d'
+  #    magenta: '0x605655'
+  #    cyan:    '0x4b5c5e'
+  #    white:   '0x504339'
+
+  primary:
+    background: '#2E3440'
+    foreground: '#D8DEE9'
+
+  # Normal colors
+  normal:
+    black:   '#3B4252'
+    red:     '#BF616A'
+    green:   '#A3BE8C'
+    yellow:  '#EBCB8B'
+    blue:    '#81A1C1'
+    magenta: '#B48EAD'
+    cyan:    '#88C0D0'
+    white:   '#E5E9F0'
+
+    window:
+      decorations: buttonless

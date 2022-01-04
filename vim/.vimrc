@@ -15,12 +15,10 @@ Plug 'dense-analysis/ale'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'arcticicestudio/nord-vim'
-Plug 'preservim/nerdtree'
 Plug 'itchyny/lightline.vim'
 Plug 'vifm/vifm.vim'
 Plug 'junegunn/goyo.vim'
 Plug 'davidhalter/jedi-vim'
-Plug 'ThePrimeagen/vim-be-good'
 Plug 'prabirshrestha/vim-lsp'
 if has('nvim')
     Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
